@@ -26,3 +26,6 @@ This is challenge 6.
 ### I have a syntax error below. Though, the following code has the responsability of creating an image.
 
 <img width="927" alt="Screen Shot 2021-10-17 at 8 36 01 PM" src="https://user-images.githubusercontent.com/25726054/137651029-93fd8e2e-9851-4db0-94f5-0c74752ef018.png">
+
+
+### The above problem is stopping me to move forward as I need the excel file. Though please look at the code from Vacation_Itinerary
