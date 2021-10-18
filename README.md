@@ -21,3 +21,8 @@ This is challenge 6.
 ### Minimum temperature of 50
 ### Maximum temperature of 150
 <img width="897" alt="Screen Shot 2021-10-17 at 8 18 32 PM" src="https://user-images.githubusercontent.com/25726054/137650339-d8ce23ab-eb1e-43a1-9999-0b2f4409daa9.png">
+
+
+### I have a syntax error below. Though, the following code has the responsability of creating an image.
+
+<img width="927" alt="Screen Shot 2021-10-17 at 8 36 01 PM" src="https://user-images.githubusercontent.com/25726054/137651029-93fd8e2e-9851-4db0-94f5-0c74752ef018.png">
