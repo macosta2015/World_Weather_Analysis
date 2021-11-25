@@ -1,31 +1,32 @@
 # World_Weather_Analysis
-This is challenge 6.
+WeatherPy with Python APIs
 
-## Weather_Database
-#### We are going to retrieve the data of the cities by calling the API. 
-#### Please look at the following data retrieved. 
-#### We then save the file into the Weather_Database folder as a SCV. 
+## Main Objective
+1. Perform tasks using new Python libraries and modules.
+2. Retrieve and use data from an API "get" request to a server.
+3. Retrieve and store values from a JSON array.
+4. Use try and except blocks to resolve errors.
+5. Write Python functions.
+6. Create scatter plots using the Matplotlib library, and apply styles and features to a plot.
+7. Perform linear regression, and add regression lines to scatter plots.
+8. Create heatmaps, and add markers using the Google Maps API.
 
-<img width="667" alt="Weather_Database_PIC" src="https://user-images.githubusercontent.com/25726054/137649738-30d3b2f8-5ceb-4926-b30f-1a204ab9aaba.png">
+## Overview
+After working on an app, beta testers requested a new feature, weather description, be added to the markers that pop up after clicking on a pin.  The beta testers also wanted to be able to pick their minimum and maximum temperatures for a trip.  From there, four cities were chosen to create an itinerary map with pins and markers.
 
+# Process
 
-## Vacation_Search
-#### We are now going to use the API key from google maps and read the CSV file that we created previously (from WeatherPy_Database.csv)
-<img width="1078" alt="Screen Shot 2021-10-17 at 8 15 00 PM" src="https://user-images.githubusercontent.com/25726054/137650224-1d279597-0241-476d-8313-7b3a392e7b4c.png">
+## Retrieve the Weather Data
+An API was established with OpenWeatherMap and a DataFrame was created to get the initial list of potential cities. 
+![Pic 1](https://github.com/Baylex/World_Weather_Analysis/blob/main/Weather_Database/Resources/City_DF.PNG)
 
+## Create a Customer Travel Destinations Map
+After prompting the beta testers for their minimum and maximum temperature preferences, the data frame was cleaned for null hotel entries and empty rows.  Markers and pins were created for the remainder of the hotels. 
+![Pic 2](https://github.com/Baylex/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.PNG)
 
-## The code will also ask the user for the minimum and maximum temperature. This is a filter for the data. 
+## Create an Itinerary Map
+The list was narrowed down to 4 cities in the same country and a travel map was created. 
+![Pic 3](https://github.com/Baylex/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
 
-<img width="1100" alt="Screen Shot 2021-10-17 at 8 16 39 PM" src="https://user-images.githubusercontent.com/25726054/137650286-81fedcd8-10f7-4b9f-8616-843ba7a905e9.png">
-
-### Minimum temperature of 50
-### Maximum temperature of 150
-<img width="897" alt="Screen Shot 2021-10-17 at 8 18 32 PM" src="https://user-images.githubusercontent.com/25726054/137650339-d8ce23ab-eb1e-43a1-9999-0b2f4409daa9.png">
-
-
-### I have a syntax error below. Though, the following code has the responsability of creating an image.
-
-<img width="927" alt="Screen Shot 2021-10-17 at 8 36 01 PM" src="https://user-images.githubusercontent.com/25726054/137651029-93fd8e2e-9851-4db0-94f5-0c74752ef018.png">
-
-
-### The above problem is stopping me to move forward as I need the excel file. Though please look at the code from Vacation_Itinerary
+Makers were added to the map of four cities. 
+![Pic 4](https://github.com/Baylex/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
